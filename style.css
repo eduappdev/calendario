@@ -32,12 +32,12 @@ td{
     padding: 10px 10px;
 }
 .sabat{
-    background-color: rgba(236, 59, 59, 0.979);
+    background-color: rgba(250, 70, 57, 0.979);
     border-radius: 5px;
     color: aliceblue;
 }
 .content{
-    background-color: rgba(30, 255, 0, 0.829);
+    background-color: aqua;
     width: 350px;
     height: 300px;
 }
@@ -58,4 +58,7 @@ button{
     width: 50px;
     height: 30px;
     margin-left: 30px;
+}
+.receb{
+    margin-left: 20px;
 }
