@@ -1193,7 +1193,7 @@ const relogio = setInterval(function time() {
    if(ano==-1440){
 
    }else{
-    arr1()
+    //arr1()
    }
    
      
