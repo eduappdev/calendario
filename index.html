@@ -9,7 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@700&family=Roboto&display=swap" rel="stylesheet">
-
+    
+     <script  src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script  src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+   <script  src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+   
 
 
     </head>
@@ -28,9 +33,35 @@
 
 
     </div>
+    <div class="seletion">
+        
+        <select name="selec" id="selec">
+            <option  value="16">Atual</option>
+            <option   value="0">Inicio</option>
+            <option  value="1">Primrira Pascoa</option>
+            <option value="2">Saida do deserto</option>
+            <option value="3">Inicio dos Juizes</option>
+            <option value="4"> Reinaddo de Saul</option>
+            <option value="5">Reinado de Davi</option>
+            <option value="6">Reinado de Salomão</option>
+            <option value="7">Reino dividido</option>
+            <option value="8">1º Destruição de Jerusaalém</option>
+            <option value="9">decreto reconstrução de jerusalém</option>
+            <option value="10">nascimento do messias</option>
+            <option value="11">Crucificação</option>
+            <option value="12">2º Destruição de Jerusalém</option>
+            <option value="13">Cupula da rocha</option>
+            <option value="14">Irael Volta a ser nação</option>
+            <option value="15">Sinal no ceu Apoc 12</option>
+          
+
+        </select>
+        <br>
+    <input  type="number" name="ano" id="solit"><label for="">Pesquisa Por Ano</label>
+    </div>
   <main>
     
-    <div class="mes">Dezembro</div>
+    <div class="mes" id="mtx">Dezembro</div>
    
     <div class="content">
         <table>
@@ -60,15 +91,27 @@
             </tbody>
         </table>
     </div>
-     <div class="card">
-        <button onclick="adicionar()">seguinte</button>
-    <button onclick="calendario.deletar()">delet</button>
-    </div>
+    
 
 
   </main>
+  <div class="recebg">
+    <label > <a id="textosdiag" >dom</a></label>&nbsp;&nbsp;&nbsp;&nbsp;
+    <label >dia :  <a id="texdiag" >1</a></label>&nbsp;&nbsp;&nbsp;&nbsp;
+    <label >mês :<a id="texmesg">1</a></label>&nbsp;&nbsp;&nbsp;&nbsp;
+    <label >ano : <a id="texanog">0000 </a></label>&nbsp;&nbsp;&nbsp;&nbsp;
+    <label >total dia :<a id="textodiag">0</a></label><br>
+    <label >total ano :<a id="textoanog">0</a></label>&nbsp;&nbsp;&nbsp;
+    <label >total semanas :<a id="textosemag">0</a></label><br>
     
+ </div>
     
+     <div class="card">
+        <button onclick="adicionar()">seguinte</button>&nbsp;&nbsp;
+        <button onclick="salvar()">salvar</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+    <button onclick="deletar()">delet</button>
+    </div>
 
 
 
