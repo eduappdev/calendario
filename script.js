@@ -1838,7 +1838,7 @@ const relogio = setInterval(function time() {
         document.getElementById('d7').style.backgroundColor=" red"
 
     }else{
-        document.getElementById('d7').style.backgroundColor="rgba(250, 70, 57, 0.979)"
+        document.getElementById('d7').style.backgroundColor=" rgb(252, 115, 115)"
     }
     document.getElementById('d8').textContent=a8;
     if(dia==a8){
@@ -1890,7 +1890,7 @@ const relogio = setInterval(function time() {
     if(dia==a14){
         document.getElementById('d14').style.backgroundColor="red"
     }else{
-        document.getElementById('d14').style.backgroundColor="rgba(250, 70, 57, 0.979)"
+        document.getElementById('d14').style.backgroundColor=" rgb(252, 115, 115)"
     }
     document.getElementById('d15').textContent=a15;
     if(dia==a15){
@@ -1942,7 +1942,7 @@ const relogio = setInterval(function time() {
     if(dia==a21){
         document.getElementById('d21').style.backgroundColor="red"
     }else{
-        document.getElementById('d21').style.backgroundColor="rgba(250, 70, 57, 0.979)"
+        document.getElementById('d21').style.backgroundColor=" rgb(252, 115, 115)"
     }
 
     document.getElementById('d22').textContent=a22;
@@ -1999,7 +1999,7 @@ const relogio = setInterval(function time() {
     if(dia==a28){
         document.getElementById('d28').style.backgroundColor="red"
     }else{
-        document.getElementById('d28').style.backgroundColor="rgba(250, 70, 57, 0.979)"
+        document.getElementById('d28').style.backgroundColor=" rgb(252, 115, 115)"
     }
     document.getElementById('d29').textContent=a29;
     if(dia==a29){
@@ -2057,7 +2057,7 @@ const relogio = setInterval(function time() {
     if(dia==a35){
         document.getElementById('d35').style.backgroundColor="red"
     }else{
-        document.getElementById('d35').style.backgroundColor="rgba(250, 70, 57, 0.979)"
+        document.getElementById('d35').style.backgroundColor=" rgb(252, 115, 115)"
     }
 
     document.getElementById('d36').textContent=a36;
