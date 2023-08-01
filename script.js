@@ -1752,6 +1752,14 @@ function deletar(){
     arr()
 }
 
+var busc="false"
+function salvar1(){
+    if(busc=="true"){
+        busc="false"
+    }else{
+        busc="true"
+    }
+}
 //controlador de dados
 const relogio = setInterval(function time() {
     
@@ -2059,10 +2067,19 @@ const relogio = setInterval(function time() {
         document.getElementById('d36').style.backgroundColor="yellow"
     }
     
-   if(gano==-1370){
+   if(busc=="true"){
+    let bu=document.getElementById('solit').value
+    
+    if(gano==bu){
+        busc="false" 
 
-   }else{
-      //arr1()
+    }else{
+      arr()
+     
+       
+    }
+    
+
    }
    
      
@@ -2071,18 +2088,19 @@ const relogio = setInterval(function time() {
      loop()
     //dia.textContent = 14;
   
-     loop1()
+    
     
   
     
 })
 inicio()
 
+
 function salvar(){
     
   
 
-  bd.collection("ano000").doc("3")
+ /* bd.collection("ano000").doc("3")
   
   .update({
         a: document.getElementById('texdia').textContent,
@@ -2103,5 +2121,5 @@ function salvar(){
    
     
 
-  })
+  })*/
 }

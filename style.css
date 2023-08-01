@@ -75,5 +75,6 @@ button{
     font-size: 20px;  
 }
 .seletion{
-    height: 70px;
+    height: 100px;
+    margin-left: 20px;
 }
