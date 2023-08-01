@@ -2067,6 +2067,8 @@ const relogio = setInterval(function time() {
         document.getElementById('d36').style.backgroundColor="yellow"
     }
     
+        
+    
    if(busc=="true"){
     let bu=document.getElementById('solit').value
     
@@ -2074,14 +2076,18 @@ const relogio = setInterval(function time() {
         busc="false" 
 
     }else{
-      arr()
-     
+      
+     if(cdd==16){
+        arr()
+   }else{
+    alert("Selecione o campo a cima no Atual para prosseguir.")
+    busc="false" 
+   }
        
     }
     
 
    }
-   
      
    
     
