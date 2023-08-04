@@ -63,7 +63,7 @@ button{
     margin-left: 20px;
 }
 .recebg{
-    margin-left: 30px;
+    margin-left: 40px;
     margin-top: -40px;
 }
 .selec{
@@ -78,4 +78,28 @@ button{
     height: 150px;
    width: 450px;
     margin-left: 20px;
+}
+.card{
+    margin-left: 20px;
+}
+.iftex{
+    background-color: rgb(191, 240, 223);
+    width: 450px;
+    margin-left: 10px;
+}
+.h2{
+    background-color: aliceblue;
+    text-align: center;
+    margin-top: 20px;
+   
+}
+.h1{
+
+    background-color: rgb(245, 106, 7);
+    width: 450px;
+     margin-left: 20px;
+}
+.pinicio{
+    
+    width: 450px;
 }

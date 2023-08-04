@@ -20,14 +20,14 @@ let arrbd=[
     {
         a: 1,
         b: 1,
-        c: -3905,
+        c: -3923,
         d: 0,
         e: 0,
         f: 0,
         g: 1,
         h: 1,  // 0 inicio
         i: 1,
-        j: -3905,
+        j: -3923,
         l: 0,
         m: 1,
         n: 0,
@@ -38,37 +38,37 @@ let arrbd=[
       {
         a: 14,
         b: 1,
-        c: -1405,
-        d: 900373,
-        e: 2501,
-        f: 128625,
-        g: 4,
-        h: 2,   // 1  primeira pascoa
-        i: 2,
+        c: -1403,
+        d: 907213,
+        e: 2520,
+        f: 129602,
+        g: 1,
+        h: 25,   // 1  primeira pascoa
+        i: 10,
         j: -1440,
-        l: 900373,
-        m: 2,
-        n: 2465,
-        o: 1,
-        p: 128625,
+        l: 907213,
+        m: 1,
+        n: 2483,
+        o: 2,
+        p: 129602,
 
       },//1
       {
-        a: 12,
-        b: 7,
-        c: -1365,
-        d: 914951,
-        e: 2541,
-        f: 130707,
-        g: 2,
-        h: 1,   // 2 saida do deserto
-        i: 1,
+        a: 14,
+        b:  1,
+        c: -1363,
+        d: 921613,
+        e: 2560,
+        f: 131659,
+        g: 5,
+        h: 29,   // 2 saida do deserto
+        i: 3,
         j: -1400,
-        l: 914951,
-        m: 2,
-        n: 2505,
-        o: 2,
-        p: 130707,
+        l: 921613,
+        m: 1,
+        n: 2523,
+        o: 3,
+        p: 131659,
 
       },//2
       {
@@ -326,7 +326,7 @@ let arrbd=[
 ]
 let select=document.querySelector('#selec');
     
- var cdd=16     
+ var cdd=2 /*    
 function loop1() {
     let optionsvalue= select.options[select.selectedIndex];
     let value = optionsvalue.value;
@@ -349,7 +349,7 @@ cdd=value
  contposi=arrbd[cdd].o
  tsemanag=arrbd[cdd].p
 
-}     
+} */    
 
 
 //dados biblico
@@ -2076,19 +2076,19 @@ const relogio = setInterval(function time() {
         busc="false" 
 
     }else{
-      
-     if(cdd==16){
-        arr()
+       arr1()
+    /* if(cdd==0){
+       
    }else{
     alert("Selecione o campo a cima no Atual para prosseguir.")
     busc="false" 
-   }
+   }*/
        
     }
     
 
    }
-     
+    
    
     
      loop()
@@ -2106,7 +2106,7 @@ function salvar(){
     
   
 
- /* bd.collection("ano000").doc("3")
+  bd.collection("ano000").doc("3")
   
   .update({
         a: document.getElementById('texdia').textContent,
@@ -2127,5 +2127,5 @@ function salvar(){
    
     
 
-  })*/
+  })
 }
